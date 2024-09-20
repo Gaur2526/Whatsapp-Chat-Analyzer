@@ -6,44 +6,44 @@ This project is a social media chat analyzer built with Python and Streamlit. Th
 
 1. **Top Statistics**: Displays the total number of messages, total words, media shared, and links shared.
 
-![image](https://github.com/amitkedia007/Whatsapp-chat-analyzer/assets/83700281/09838d81-79d1-48e9-b705-caedb885f797)
+![image](https://github.com/Gaur2526/Images/raw/main/Top%20Statistics.png?raw=true)
 
 2. **Activity Timelines**: Shows the monthly and daily activity timelines.
-![image](https://github.com/amitkedia007/Whatsapp-chat-analyzer/assets/83700281/c09ed3c6-b4aa-45be-9608-6ff44532a1a8)
-![image](https://github.com/amitkedia007/Whatsapp-chat-analyzer/assets/83700281/2cff8753-8523-4d05-b20a-8fab31a3cf8e)
+![image](https://github.com/Gaur2526/Images/raw/main/Monthly%20Activity%20Timeline.png)
+![image](https://github.com/Gaur2526/Images/raw/main/Daily%20Activity%20Timeline.png)
 
 3. **Activity Maps**: Visualizes the most busy day and month.
-![image](https://github.com/amitkedia007/Whatsapp-chat-analyzer/assets/83700281/4ca50b46-34f0-4aa3-b009-f547db35aff6)
-![image](https://github.com/amitkedia007/Whatsapp-chat-analyzer/assets/83700281/1a0de54c-e896-4f58-9355-28fb2f932676)
-![image](https://github.com/amitkedia007/Whatsapp-chat-analyzer/assets/83700281/e9b01318-09cd-48df-85b8-58c79440bfb4)
+![image](https://github.com/Gaur2526/Images/raw/main/Activity%20Map.png)
+![image](https://github.com/Gaur2526/Images/raw/main/Most%20Busy%20Users.png)
+![image](https://github.com/Gaur2526/Images/raw/main/Weekly%20Activity%20Map.png)
 
 4. **Word Cloud**: Generates a word cloud for frequent words.
-![image](https://github.com/amitkedia007/Whatsapp-chat-analyzer/assets/83700281/5a4a5f83-d5df-4c73-95eb-4279b5a59328)
+![image](https://github.com/Gaur2526/Images/raw/main/Word%20Cloud%20for%20Frequent%20Words.png)
 
 5. **Most Common Words**: Lists the most common words used in the chat.
-![image](https://github.com/amitkedia007/Whatsapp-chat-analyzer/assets/83700281/5b38d033-b0e0-4c02-806a-f29e0663870d)
+![image](https://github.com/Gaur2526/Images/raw/main/Most%20Common%20Words.png)
 
 6. **Emoji Analysis**: Analyzes the usage of emojis in the chat.
-![image](https://github.com/amitkedia007/Whatsapp-chat-analyzer/assets/83700281/625211ac-66f7-487c-b7e5-c769e7518b34)
+![image](https://github.com/Gaur2526/Images/raw/main/Emoji%20Analysis.png)
 
 7. **Sentiment Analysis**: Performs sentiment analysis based on the text and emojis used in the messages.
-![image](https://github.com/amitkedia007/Whatsapp-chat-analyzer/assets/83700281/3b138135-21ee-454d-812c-5928266f3e21)
+![image](https://github.com/Gaur2526/Images/raw/main/Sentiment%20Analysis.png)
 
 ## Installation
 
 1. Clone the repository:
 ```
-gh repo clone amitkedia007/Whatsapp-chat-analyzer
+gh repo clone Gaur2526/Whatsapp-Chat-Analyzer
 ```
 
 2. Navigate to the project directory:
 ```
-cd Whatsapp-chat-analyzer
+cd Whatsapp-Chat-Analyzer
 ```
 
 3. Install the required Python packages:
 ```
-pip install -r requirements.txt
+pip/pip3 install -r requirements.txt
 ```
 
 ## Usage
@@ -57,7 +57,7 @@ streamlit run app.py
 
 3. Upload a chat log file using the file uploader in the sidebar.
 
-![image](https://github.com/amitkedia007/Whatsapp-chat-analyzer/assets/83700281/0aa826e8-e54d-453d-aa23-aad7ca74701a)
+![image](https://github.com/Gaur2526/Images/raw/main/DropBox.png)
 
 
 4. Select a user from the dropdown menu in the sidebar.
@@ -74,7 +74,4 @@ streamlit run app.py
 
 - `stopwords.txt`: A text file containing common stopwords to be excluded from the word cloud and most common words analysis.
 
-## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-# whatsappchatanalyzer
