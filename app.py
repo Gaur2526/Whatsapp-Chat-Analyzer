@@ -24,6 +24,27 @@ def app():
         selected_user = st.sidebar.selectbox("Show Analysis with respect to", user_list)
 
     if st.sidebar.button("Show Analysis"):
+
+        # Add the download chat button here
+        if selected_user == "Overall":
+            download_text = mydata  # full chat text
+        else:
+            user_df = df[df['user'] == selected_user]
+
+            lines = []
+            for _, row in user_df.iterrows():
+                # Format each chat line similar to WhatsApp export style (you can adjust)
+                line = f"[{row['date'].strftime('%m/%d/%Y, %H:%M')}] {row['user']}: {row['message']}"
+                lines.append(line)
+            download_text = "\n".join(lines)
+
+        st.sidebar.download_button(
+            label=f"Download Chat - {selected_user}",
+            data=download_text,
+            file_name=f"chat_{selected_user.replace(' ', '_').lower()}.txt",
+            mime="text/plain"
+        )
+        
         st.title("Top Statistics")    
         num_messages, words, num_media_msg, links = helper.fetch_stats(selected_user,df)
             
@@ -206,3 +227,4 @@ def app():
 
 if __name__ == "__main__":
     app()
+
